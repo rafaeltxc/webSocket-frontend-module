@@ -1,0 +1,15 @@
+.div {
+  composes: alignmentRow from "./globals.css";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90px;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.username {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}

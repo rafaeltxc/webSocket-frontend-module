@@ -1,0 +1,33 @@
+.displaySize {
+  width: 100vw;
+  height: 100vh;
+}
+
+.alignmentColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.alignmentRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.anchor {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.input {
+  width: 280px;
+  height: 20px;
+}
+
+.message {
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  overflow-wrap: break-word;
+  max-width: 450px;
+}

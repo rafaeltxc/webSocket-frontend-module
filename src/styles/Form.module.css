@@ -1,0 +1,49 @@
+.root {
+  composes: displaySize from "./globals.css";
+  composes: alignmentColumn from "./globals.css";
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(rgba(255,255,255,1) 0%, rgba(142,142,142,1) 47%, rgba(0,0,0,1) 100%);
+}
+
+.signIn {
+  width: 40%;
+  height: 16%;
+  display: flex;
+  composes: alignmentColumn from "./globals.css";
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.signUp {
+  width: 40%;
+  height: 50%;
+  display: flex;
+  composes: alignmentColumn from "./globals.css";
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.input {
+  composes: input from "./globals.css";
+}
+
+.anchor {
+  font-size: large;
+  composes: anchor from "./globals.css";
+}
+
+.anchor:hover {
+  color: gray;
+}
+
+.anchor:active {
+  color: black;
+}
+
+.p {
+  font-size: large;
+  color: black;
+  margin-bottom: 15px;
+}

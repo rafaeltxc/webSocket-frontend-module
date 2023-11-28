@@ -1,0 +1,25 @@
+.divReceived {
+  justify-content: end;
+}
+
+.divSent {
+  justify-content: baseline;
+}
+
+.text {
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  overflow-wrap: break-word;
+  max-width: 450px;
+}
+
+.received {
+  color: #000;
+  background-color: #fff;
+}
+
+.sent {
+  color: #fff;
+  background-color: #505050;
+}
