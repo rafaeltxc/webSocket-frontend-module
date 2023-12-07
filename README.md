@@ -1,7 +1,7 @@
 # Front-End chat application
 
 ### Overview
-On going React Front-End to be used as a chat application. Being built concurrently with [web-crawler](https://github.com/rafaeltxc/web-crawler/tree/main). Front-End module for [webSocket-backend-module](https://github.com/rafaeltxc/webSocket-backend-module).
+On going React Front-End to be used as a chat application. Being built concurrently with [webSocket-backend-module](https://github.com/rafaeltxc/webSocket-backend-module).
 
 ### Features
 The front-end module offers an intuitive and user-friendly interface with the following features:
